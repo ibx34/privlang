@@ -1,0 +1,11 @@
+data Direction :: North | East | South | West | NonCardinal Direction Direction
+data DualDirection :: (Direction, Direction)
+
+dual_direction\ :: DualDirection -> (North, West)
+one_direction\ :: Direction -> North
+non_cardinal\ :: NonCardinal -> NonCardinal North West
+
+one\ x int :: int -> 0
+two\ x int, y int :: int -> 0
+
+main\ :: int -> 0
