@@ -1,0 +1,1 @@
+clang -g -O0 -o Main main.c && ./Main

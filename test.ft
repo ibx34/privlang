@@ -1,5 +1,6 @@
-data Direction :: North | East | South | West | NonCardinal Direction Direction
-data DualDirection :: (Direction, Direction)
+// Sum types
+d'Direction :: North /* Enumerated */ | East /* Enumerated */ | South /* Enumerated */ | West /* Enumerated */| NonCardinal Direction Direction /* nested sum type  */ 
+d'DualDirection Direction Direction
 
 dual_direction\ :: DualDirection -> (North, West)
 one_direction\ :: Direction -> North

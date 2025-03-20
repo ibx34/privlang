@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     Main
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _string_to_enum, symObjAddr: 0x0, symBinAddr: 0x100002B40, symSize: 0x84 }
+  - { offset: 0x4D, size: 0x8, addend: 0x0, symName: _reserved_keyworsd, symObjAddr: 0x1190, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x73, size: 0x8, addend: 0x0, symName: _enumStrings, symObjAddr: 0x11A0, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offset: 0x303, size: 0x8, addend: 0x0, symName: _string_to_enum, symObjAddr: 0x0, symBinAddr: 0x100002B40, symSize: 0x84 }
+  - { offset: 0x347, size: 0x8, addend: 0x0, symName: _initLexerState, symObjAddr: 0x84, symBinAddr: 0x100002BC4, symSize: 0x88 }
+  - { offset: 0x37D, size: 0x8, addend: 0x0, symName: _pushBackTok, symObjAddr: 0x10C, symBinAddr: 0x100002C4C, symSize: 0xA4 }
+  - { offset: 0x3BD, size: 0x8, addend: 0x0, symName: _collectUntil, symObjAddr: 0x1B0, symBinAddr: 0x100002CF0, symSize: 0x15C }
+  - { offset: 0x41D, size: 0x8, addend: 0x0, symName: _advance, symObjAddr: 0x30C, symBinAddr: 0x100002E4C, symSize: 0x20 }
+  - { offset: 0x441, size: 0x8, addend: 0x0, symName: _lexOne, symObjAddr: 0x32C, symBinAddr: 0x100002E6C, symSize: 0x558 }
+  - { offset: 0x50D, size: 0x8, addend: 0x0, symName: _lexAll, symObjAddr: 0x884, symBinAddr: 0x1000033C4, symSize: 0x50 }
+  - { offset: 0x533, size: 0x8, addend: 0x0, symName: _initParserState, symObjAddr: 0x8D4, symBinAddr: 0x100003414, symSize: 0x50 }
+  - { offset: 0x577, size: 0x8, addend: 0x0, symName: _peek, symObjAddr: 0x924, symBinAddr: 0x100003464, symSize: 0x68 }
+  - { offset: 0x59F, size: 0x8, addend: 0x0, symName: ___current, symObjAddr: 0x98C, symBinAddr: 0x1000034CC, symSize: 0x64 }
+  - { offset: 0x5C7, size: 0x8, addend: 0x0, symName: ___expect, symObjAddr: 0x9F0, symBinAddr: 0x100003530, symSize: 0x50 }
+  - { offset: 0x60B, size: 0x8, addend: 0x0, symName: _expect, symObjAddr: 0xA40, symBinAddr: 0x100003580, symSize: 0x88 }
+  - { offset: 0x64F, size: 0x8, addend: 0x0, symName: _parseLambda, symObjAddr: 0xAC8, symBinAddr: 0x100003608, symSize: 0x14 }
+  - { offset: 0x677, size: 0x8, addend: 0x0, symName: _parse, symObjAddr: 0xADC, symBinAddr: 0x10000361C, symSize: 0x3C0 }
+  - { offset: 0x7A8, size: 0x8, addend: 0x0, symName: ___advance, symObjAddr: 0xE9C, symBinAddr: 0x1000039DC, symSize: 0x20 }
+  - { offset: 0x7CC, size: 0x8, addend: 0x0, symName: ___deadvance, symObjAddr: 0xEBC, symBinAddr: 0x1000039FC, symSize: 0x20 }
+  - { offset: 0x7F0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xEDC, symBinAddr: 0x100003A1C, symSize: 0x13C }
+...
